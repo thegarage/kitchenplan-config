@@ -1,10 +1,19 @@
+# Ruby files
 Gemfile
-/vendor
-kitchenplan-attributes.json
+Gemfile.lock
+.bundle
+
+# Chef files
 solo.rb
 Cheffile.lock
-.bundle
 .librarian
-Gemfile.lock
 
+# kitchenplan files
+kitchenplan-attributes.json
+
+# OSX files
 .DS_Store
+
+# ignored files
+tmp
+/vendor
