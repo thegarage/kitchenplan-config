@@ -6,5 +6,5 @@ cookbook 'homebrewalt', :github => 'kitchenplan/chef-homebrewalt', :ref => 'v1.8
 cookbook 'osxdefaults', :github => 'kitchenplan/chef-osxdefaults', :ref => 'v1.0.1'
 cookbook 'dotfiles', :github => 'kitchenplan/chef-dotfiles', :ref => 'v1.1'
 
-cookbook 'homebrew', :github => 'opscode-cookbooks/homebrew', :ref => 'v1.5.5'
+cookbook 'homebrew', :github => 'opscode-cookbooks/homebrew', :ref => 'v1.5.4'
 cookbook 'rbenv', :github => 'fnichol/chef-rbenv', :ref => 'v0.7.2'

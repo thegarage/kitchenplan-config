@@ -36,9 +36,9 @@ attributes:
       - mou
       - github
   rbenv:
-    default_ruby: "2.0.0-p353"
+    default_ruby: "2.1.1"
     rubies:
-      2.0.0-p353: {}
+      2.1.1: {}
   vagrant_plugins:
     - vagrant-berkshelf
     - vagrant-omnibus
