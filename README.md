@@ -18,6 +18,7 @@ After installing the kitchenplan gem, run the `setup` command and follow the giv
 
 ```bash
 $ kitchenplan setup https://github.com/thegarage/kitchenplan-config.git
+$ kitchenplan provision
 ```
 
 ## Copyright
