@@ -1,27 +1,16 @@
 recipes:
   global:
-    # general tools
-    - applications::skype
-
-    # general development
+    # general unix setup
     - dotfiles::bash_it
-    - applications::git
     - dotfiles::gitconfig
     - dotfiles::projects
 
     # rails development stack
+    - rbenv::user_install
     - dotfiles::gem_setup
-    - applications::rbenv
-    - applications::nodejs
-    - applications::phantomjs
-    - applications::heroku
-    - applications::virtualbox
-    - applications::vagrant
 
     # development tools
     - applications::sublime_text_3
-    - applications::github_for_mac
-    - applications::mou
 
 attributes:
   workspace_directory: Projects
@@ -32,14 +21,20 @@ attributes:
         - thegarage-gitx
         - https://github.com/thegarage/thegarage-gitx.git
       -
-        - chef-osxdefaults
-        - https://github.com/thegarage/chef-osxdefaults.git
-      -
-        - chef-applications
-        - https://github.com/thegarage/chef-applications.git
-      -
-        - chef-dotfiles
-        - https://github.com/thegarage/chef-dotfiles.git
+        - thegarage-template
+        - https://github.com/thegarage/thegarage-template.git
+  homebrewalt:
+    apps:
+      - git
+      - phantomjs
+      - heroku
+      - nodejs
+    cask_apps:
+      - skype
+      - virtualbox
+      - vagrant
+      - mou
+      - github
   rbenv:
     default_ruby: "2.0.0-p353"
     rubies:

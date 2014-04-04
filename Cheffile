@@ -1,8 +1,10 @@
 site 'http://community.opscode.com/api/v1'
 
 # kitchenplan cookbooks
-# example: https://github.com/kitchenplan/kitchenplan/blob/master/Cheffile
-cookbook 'applications', :github => 'kitchenplan/chef-applications', :ref => 'v1.0'
-cookbook 'osxdefaults', :github => 'kitchenplan/chef-osxdefaults', :ref => 'v1.0'
-cookbook 'dotfiles', :github => 'kitchenplan/chef-dotfiles', :ref => 'v1.0'
-cookbook 'homebrew', :github => 'kitchenplan/chef-homebrewalt', :ref => 'v1.6'
+cookbook 'applications', :github => 'kitchenplan/chef-applications', :ref => 'v2.0.1'
+cookbook 'homebrewalt', :github => 'kitchenplan/chef-homebrewalt', :ref => 'v1.8.1'
+cookbook 'osxdefaults', :github => 'kitchenplan/chef-osxdefaults', :ref => 'v1.0.1'
+cookbook 'dotfiles', :github => 'kitchenplan/chef-dotfiles', :ref => 'v1.1'
+
+cookbook 'homebrew', :github => 'opscode-cookbooks/homebrew', :ref => 'v1.5.5'
+cookbook 'rbenv', :github => 'fnichol/chef-rbenv', :ref => 'v0.7.2'

@@ -28,11 +28,14 @@ recipes:
     - osxdefaults::set_computer_name
     - osxdefaults::enable_assistive_devices
 
-    # basic applications
-    - applications::google-chrome
-    - applications::firefox
+    # default homebrew config
+    - homebrewalt::default
 
 attributes:
   osxdefaults:
     loginmessage: Property of The Garage @ UHG
     remote_desktop_config: -activate -configure -access -on -restart -agent -privs -all -allowAccessFor -specifiedUsers -users garageadmin
+  homebrewalt:
+    cask_apps:
+      - google-chrome
+      - firefox

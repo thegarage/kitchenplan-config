@@ -1,17 +1,13 @@
 groups:
   - developer
 
-recipes:
-  global:
-    - applications::sizeup
-    - applications::evernote
-    - applications::cask_apps
-
 attributes:
-  brew:
+  homebrewalt:
     cask_apps:
       - skitch
       - jing
+      - evernote
+      - sizeup
   sublime_text:
     preferences:
       font_size: 14
