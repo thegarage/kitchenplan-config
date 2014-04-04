@@ -6,6 +6,7 @@ recipes:
     - dotfiles::projects
 
     # rails development stack
+    - homebrew::default
     - rbenv::user_install
     - dotfiles::gem_setup
 
