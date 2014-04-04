@@ -6,3 +6,5 @@ Cheffile.lock
 .bundle
 .librarian
 Gemfile.lock
+
+.DS_Store

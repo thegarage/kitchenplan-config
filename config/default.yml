@@ -1,15 +1,38 @@
-recipes:                                       # Configs are parsed and every list is appended to each other, chef handles order and de-duplication
-    global:                                    # Recipes mentioned under "global" are installed for all operating systems (we used to support linux, and may do so in the future)
-        - applications::create_var_chef_cache
-    mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
-        - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
-        - nodejs::default                      # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
+recipes:
+  global:
+    # chef setup
+    - applications::create_var_chef_cache
+
+    # osx system settings
+    - dotfiles::inputrc
+    - osxdefaults::add_note_to_loginscreen
+    - osxdefaults::set_screensaver_preferences
+    - osxdefaults::disable_natural_scrolling
+    - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
+    - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
+    - osxdefaults::check_for_software_updates_daily
+    - osxdefaults::disable_press-and-hold_for_keys_in_favor_of_key_repeat
+    - osxdefaults::terminal_preferences
+    - osxdefaults::dock_set_magnification_on
+    - osxdefaults::dock_set_the_icon_size_of_dock_items_to_36_pixels
+    - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
+    - osxdefaults::enable_safari_debug_menu
+    - osxdefaults::finder_display_full_path
+    - osxdefaults::finder_set_preferred_view_style
+    - osxdefaults::finder_show_all_files
+    - osxdefaults::finder_show_file_extensions
+    - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
+    - osxdefaults::save_to_disk_not_to_iCloud_by_default
+    - osxdefaults::menu_show_clock_with_date
+    - osxdefaults::enable_remote_desktop
+    - osxdefaults::set_computer_name
+    - osxdefaults::enable_assistive_devices
+
+    # basic applications
+    - applications::google-chrome
+    - applications::firefox
+
 attributes:
-    homebrewalt:
-        apps:
-            - git
-        cask_apps:
-            - google-chrome
-    nodejs:
-        apps:
-            - bower
+  osxdefaults:
+    loginmessage: Property of The Garage @ UHG
+    remote_desktop_config: -activate -configure -access -on -restart -agent -privs -all -allowAccessFor -specifiedUsers -users garageadmin

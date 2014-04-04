@@ -1,0 +1,8 @@
+groups:
+  - developer
+  - designer
+
+attributes:
+  git:
+    name: Matt van Wyk
+    email: vanwyk@gmail.com
