@@ -30,6 +30,7 @@ attributes:
       - phantomjs
       - heroku
       - nodejs
+      - ansible
     cask_apps:
       - skype
       - virtualbox
