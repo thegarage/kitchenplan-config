@@ -1,0 +1,8 @@
+groups:
+  - developer
+  - designer
+
+attributes:
+  git:
+    name: Amy Aaron
+    email: amyraaron@gmail.com
