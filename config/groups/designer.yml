@@ -1,3 +1,4 @@
-recipes:
-  global:
-    - applications::tower
+attributes:
+  homebrewalt:
+    cask_apps:
+      - tower

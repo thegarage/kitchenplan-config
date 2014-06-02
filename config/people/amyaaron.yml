@@ -3,6 +3,8 @@ groups:
   - designer
 
 attributes:
+  osxdefaults:
+    computername: AmysMacbookPro
   git:
     name: Amy Aaron
     email: amyraaron@gmail.com

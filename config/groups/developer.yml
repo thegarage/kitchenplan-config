@@ -6,8 +6,6 @@ recipes:
     - dotfiles::projects
 
     # rails development stack
-    - homebrew::default
-    - rbenv::user_install
     - dotfiles::gem_setup
 
     # development tools
@@ -30,16 +28,13 @@ attributes:
       - phantomjs
       - heroku
       - nodejs
+      - rbenv
+      - ruby-build
     cask_apps:
-      - skype
       - virtualbox
       - vagrant
       - mou
       - github
-  rbenv:
-    default_ruby: "2.1.1"
-    rubies:
-      2.1.1: {}
   vagrant_plugins:
     - vagrant-berkshelf
     - vagrant-omnibus
