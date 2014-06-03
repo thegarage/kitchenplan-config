@@ -1,0 +1,10 @@
+groups:
+  - developer
+  - designer
+
+attributes:
+  osxdefaults:
+    computername: LauraMacbookPro
+  git:
+    name: Laura Santelli
+    email: designer@thegarage.us
