@@ -1,0 +1,14 @@
+groups:
+  - developer
+
+attributes:
+  sublime_text:
+    preferences:
+      font_size: 14
+      remember_open_files: false
+      tab_size: 2
+  osxdefaults:
+    computername: AmysMacbookPro
+  git:
+    name: Chad Gullickson
+    email: chad.gullickson@optum.com
