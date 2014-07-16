@@ -28,8 +28,9 @@ attributes:
       - phantomjs
       - heroku
       - nodejs
-      - rbenv
       - ruby-build
+      - rbenv
+      - rbenv-gem-rehash
       - ansible
     cask_apps:
       - virtualbox
