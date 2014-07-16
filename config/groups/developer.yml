@@ -25,6 +25,7 @@ attributes:
   homebrewalt:
     apps:
       - git
+      - cmake
       - phantomjs
       - heroku
       - nodejs
