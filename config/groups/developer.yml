@@ -36,6 +36,7 @@ attributes:
       - vagrant
       - mou
       - github
+      - postgres
   vagrant_plugins:
     - vagrant-berkshelf
     - vagrant-omnibus
