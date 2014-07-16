@@ -7,7 +7,7 @@ attributes:
       - skitch
       - jing
       - evernote
-      - sizeup
+      - spectacle
   sublime_text:
     preferences:
       font_size: 14
