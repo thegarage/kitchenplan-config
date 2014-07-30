@@ -12,7 +12,12 @@ attributes:
   homebrewalt:
     apps:
       - wget
+      - htop-osx
+      - the_silver_searcher
     cask_apps:
       - skitch
       - atom
       - iterm2
+      - dropbox
+      - onepassword
+      - hipchat
