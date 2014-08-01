@@ -9,15 +9,22 @@ attributes:
       tab_size: 2
   osxdefaults:
     computername: StephensMacbookPro
+    finder:
+      prefered_view_style: clmv
   homebrewalt:
     apps:
       - wget
       - htop-osx
       - the_silver_searcher
+      - python3
     cask_apps:
       - skitch
       - atom
       - iterm2
       - dropbox
-      - onepassword
       - hipchat
+      - lastpass-universal
+      - java
+      - charles
+      - hex-fiend
+

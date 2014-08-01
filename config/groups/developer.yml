@@ -27,6 +27,7 @@ attributes:
       - git
       - pkg-config
       - cmake
+      - libpqxx
       - phantomjs
       - heroku
       - nodejs
