@@ -5,7 +5,7 @@ Kitchenplan is a small tool to fully automate the installation and configuration
 # Installation
 
 ```bash
-$ gem install kitchenplan
+$ sudo gem install kitchenplan
 ```
 
 # Setup
