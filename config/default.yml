@@ -31,9 +31,6 @@ recipes:
     # default homebrew config
     - homebrewalt::default
 
-    # setup ruby environment
-    - devenvironment::default
-
 attributes:
   osxdefaults:
     loginmessage: Property of The Garage @ UHG
