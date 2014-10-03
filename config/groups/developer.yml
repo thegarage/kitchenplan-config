@@ -11,6 +11,9 @@ recipes:
     # development tools
     - applications::sublime_text_3
 
+    # setup ruby environment
+    - devenvironment::default
+
 attributes:
   workspace_directory: Projects
   dotfiles:
