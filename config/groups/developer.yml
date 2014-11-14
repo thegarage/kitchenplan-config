@@ -66,3 +66,5 @@ attributes:
         - ruby
         - rbenv
         - vagrant
+  devenvironment:
+    rubyversion: "2.1.5"
